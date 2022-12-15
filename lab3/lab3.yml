@@ -3,42 +3,42 @@ prefix: ""
 
 mgmt: 
   network: dynamic
-  ipv4_subnet: 172.20.22.0/24
+  ipv4_subnet: 172.30.33.0/24
 
 topology:
   nodes:
     RO1.NY:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.2
+      mgmt_ipv4: 172.30.33.2
     RO1.LND:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.3
+      mgmt_ipv4: 172.30.33.3
     RO1.HKI:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.4
+      mgmt_ipv4: 172.30.33.4
     RO1.LBN:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.5
+      mgmt_ipv4: 172.30.33.5
     RO1.MSK:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.6
+      mgmt_ipv4: 172.30.33.6
     RO1.SPB:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.7 
+      mgmt_ipv4: 172.30.33.7 
     SGI_Prism:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.8
+      mgmt_ipv4: 172.30.33.8
     PC1:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.22.9               
+      mgmt_ipv4: 172.30.33.9               
     
   links:
     - endpoints: ["SGI_Prism:eth1","RO1.NY:eth1"]
