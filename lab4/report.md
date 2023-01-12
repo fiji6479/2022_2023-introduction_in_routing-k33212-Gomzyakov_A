@@ -58,5 +58,41 @@ Date of finished: 12.01.2023
 
 ![изображение](https://user-images.githubusercontent.com/71012423/212134787-07a4a3ea-08ba-40a0-8c85-24824614a054.png)
 
+Также поменяем логин и пароль у R01.NY
+
+![изображение](https://user-images.githubusercontent.com/71012423/212144646-16aff6ca-a2c7-402b-bd07-dc1f04af2825.png)
+
 ## Вторая часть ##
-Первым делом разбираем VRF  на R01.NY; R01.SPB; R01.SVL
+Первым делом разбираем VRF на R01.NY; R01.SPB; R01.SVL. Далее на этих роутерах настроили VPLS. Также настроили конфигурацию PC1; PC2; PC3. 
+
+1. Роутер (R01.NY)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158238-e3e65dc4-35df-4ab3-b5de-23640e3c0481.png)
+
+2. Роутер (R01.SVL)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158286-62035d15-ab7e-48e8-8960-8df64c6bac23.png)
+
+3. Роутер (R01.SPB)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158318-27c4b0bc-82ee-4d50-a77e-5be50cfa8a4c.png)
+
+4. PC1
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158515-2ddf00d5-7008-4991-a16d-58088b1d6f5e.png)
+
+5. PC2
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158644-b9a02ddd-246b-4388-834b-b9b3dfef0cdf.png)
+
+6. PC3
+
+![изображение](https://user-images.githubusercontent.com/71012423/212158590-60984cd3-e534-45eb-aa89-f7c865c36eeb.png)
+
+### Проверим связь компьютеров ###
+![изображение](https://user-images.githubusercontent.com/71012423/212160075-7803633f-300e-41a9-aa07-2ea19953b08a.png)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212161315-72cedda7-9006-480c-91c2-aa83402ff1c0.png)
+
+## Вывод ##
+В ходе выполнения лабораторной работы №4, мы изучили BGP, MPLS и правила организации L3VPN и VPLS.В итоге мы получили рабочую сеть для компании "RogaIKopita Games".
