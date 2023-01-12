@@ -20,6 +20,7 @@ Date of finished: 12.01.2023
 ## Цель работы ##
 Изучить протоколы BGP, MPLS и правила организации L3VPN и VPLS.
 ## Ход работы ##
+### Первая часть ###
 Воспользуемся текстом файла lab4.yml для развертывания сети
 ![изображение](https://user-images.githubusercontent.com/71012423/212117020-e2cb7938-85f4-487e-8349-4ad6d5456016.png)
 1. Роутер (R01.NY)
@@ -46,4 +47,16 @@ Date of finished: 12.01.2023
 
 ![изображение](https://user-images.githubusercontent.com/71012423/212127517-b18e0a80-a86b-4c68-8f7d-7606c35c37cd.png)
 
-## Пинги VRF ##
+### Пинг VRF ###
+
+![изображение](https://user-images.githubusercontent.com/71012423/212136312-1dffafc8-8284-46e5-a333-c8b13f3e186b.png)
+
+### Проверка BGP и VRF ###
+![изображение](https://user-images.githubusercontent.com/71012423/212134563-a08574f5-232b-49b3-bbdc-2d2f2d18f6ff.png)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212134590-6424bc0a-7fa4-4590-9dea-cbbc51db55f4.png)
+
+![изображение](https://user-images.githubusercontent.com/71012423/212134787-07a4a3ea-08ba-40a0-8c85-24824614a054.png)
+
+## Вторая часть ##
+Первым делом разбираем VRF  на R01.NY; R01.SPB; R01.SVL
